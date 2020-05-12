@@ -1,0 +1,36 @@
+body {
+    background: url(https://chicagotap.org/wp-content/uploads/2015/10/Black-Background-Wood-011.jpg);
+    backgroud-size: auto 100vh;
+  }
+  
+  .menu{
+    background: grey;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  .site-title,
+  .site-subtitle {
+    color: whitesmoke;
+    text-align: center;
+    }
+  
+  .site-subtitle{
+    font-style: italic;
+  }
